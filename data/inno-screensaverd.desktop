@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Inno Screensaver
+Comment=Starts the burn-in protection screensaver when the computer is idle
+Exec=inno-screensaverd
+Icon=video-display
+X-KDE-autostart-phase=2
+NoDisplay=true
+OnlyShowIn=KDE;

@@ -1,0 +1,7 @@
+File=innoscreensaversettings.kcfg
+ClassName=InnoScreensaverSettings
+Mutators=true
+DefaultValueGetters=true
+GenerateProperties=true
+ParentInConstructor=true
+Notifiers=true

@@ -1,0 +1,9 @@
+{
+    "KPlugin": {
+        "Description": "Slideshow screensaver that protects the screen from burn-in",
+        "Icon": "video-display",
+        "Name": "Screensaver"
+    },
+    "X-KDE-Keywords": "screensaver,screen saver,burn-in,burn,idle,slideshow,wallpaper",
+    "X-KDE-System-Settings-Parent-Category": "security-privacy"
+}

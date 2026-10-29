@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <include>lockscreenfolders.h</include>
+  <kcfgfile name="innoscreensaverrc"/>
+  <group name="General">
+    <entry name="Enabled" type="Bool">
+      <label>Start the screensaver when the computer is idle</label>
+      <default>true</default>
+    </entry>
+    <entry name="IdleTimeoutMinutes" type="Int">
+      <label>Minutes of inactivity before the screensaver starts</label>
+      <default>5</default>
+      <min>1</min>
+      <max>240</max>
+    </entry>
+    <entry name="SlideSeconds" type="Int">
+      <label>Seconds each picture or video stays on screen</label>
+      <default>20</default>
+      <min>5</min>
+      <max>600</max>
+    </entry>
+    <entry name="Folders" type="PathList">
+      <label>Folders to take pictures and videos from</label>
+      <default code="true">lockScreenFolders()</default>
+    </entry>
+    <entry name="IncludeInstalledWallpapers" type="Bool">
+      <label>Also use the wallpapers installed on the system</label>
+      <default>false</default>
+    </entry>
+    <entry name="IncludeAnimated" type="Bool">
+      <label>Also play videos and GIFs</label>
+      <default>true</default>
+    </entry>
+    <entry name="PanZoom" type="Bool">
+      <label>Slowly pan and zoom across still pictures</label>
+      <default>true</default>
+    </entry>
+    <entry name="PanZoomStrength" type="Int">
+      <label>How far the pan and zoom moves</label>
+      <default>50</default>
+      <min>1</min>
+      <max>100</max>
+    </entry>
+  </group>
+</kcfg>
